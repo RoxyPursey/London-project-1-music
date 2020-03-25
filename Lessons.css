@@ -9,11 +9,12 @@ header {
   justify-content: space-around;
   padding: 10px;
   text-align: center;
-  margin-bottom: 50px;
 }
+
 a {
   text-decoration: none;
 }
+
 input {
   background-color: #071e26;
   font-size: medium;
@@ -25,15 +26,9 @@ input {
   padding: 15px 32px;
   text-align: center;
   display: inline-flex;
-  margin-top: 83px;
-  margin-bottom: 30px;
+  margin-top: 12%;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-input:hover {
-  background-color: #06394c;
-  color: #cb0c59;
 }
 
 button {
@@ -47,13 +42,17 @@ button {
   padding: 15px 32px;
   text-align: center;
   display: inline-flex;
-  margin-top: 83px;
-  margin-bottom: 30px;
+  margin-top: 55%;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 button:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+
+input:hover {
   background-color: #06394c;
   color: #cb0c59;
 }
@@ -64,7 +63,7 @@ p {
   color: lightgray;
   font-family: lato;
   text-align: justify;
-  margin: 10px;
+  margin: 20px;
   font-size: 22px;
 }
 
@@ -72,9 +71,9 @@ h1 {
   text-align: center;
   color: #22a0b6;
   font-size: 45px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
   border: 2px solid #cb0c59;
   border-radius: 8px;
   padding: 10px;
@@ -83,8 +82,8 @@ h1 {
 h2 {
   color: #22a0b6;
   font-size: 40px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 img {
@@ -95,26 +94,30 @@ img {
 
 #content {
   display: flex;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
   justify-content: space-around;
-  flex-direction: row;
 }
 
-#location {
-  font-size: 20px;
-  margin-left: 150px;
-  margin-bottom: 30px;
+#book {
+  display: block;
+  width: auto;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 961px) {
-  header {
-    display: inline-block;
-    justify-content: space-around;
-  }
-  button {
-    display: inline-flex;
-    justify-content: space-around;
-    margin: 0px;
-  }
+#footer {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-color: #cb0c59;
 }
