@@ -1,5 +1,9 @@
 body {
   background-color: #071e26;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 /*HEADER*/
 
@@ -63,14 +67,15 @@ p {
   color: lightgray;
   font-family: lato;
   text-align: justify;
-  margin: 20px;
-  font-size: 22px;
+  margin: 2%;
+  font-size: 125%;
+  margin-top: 0;
 }
 
 h1 {
   text-align: center;
   color: #22a0b6;
-  font-size: 45px;
+  font-size: 300%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -81,15 +86,18 @@ h1 {
 
 h2 {
   color: #22a0b6;
-  font-size: 40px;
+  font-size: 250%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-img {
+img, figure {
   display: block;
+  width: 30%;
+  height: 12%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .intro {
@@ -101,8 +109,8 @@ img {
 
 .team {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-around;
 }
 
@@ -114,16 +122,16 @@ img {
 
 #contact {
   display: flex;
-  width: 800px;
-  margin: 5px auto;
+  width: 70%;
+  margin: 1% auto;
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
 }
 
 textarea {
-  width: 800px;
-  height: 100px;
+  width: 70%;
+  height: 250px;
   background-color: #071e26;
   font-size: medium;
   font-family: lato;
@@ -147,16 +155,61 @@ textarea {
 }
 
 #footer {
-  display: block;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-}
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
 
 hr {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4%;
   border-color: #cb0c59;
+}
+
+@media screen and (max-width: 1007px) {
+  p {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 240%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+  #location {
+    font-size: 100%;
+  }
+  #contact {
+    width: 70%;
+    height: 10px;
+  }
+  textarea {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 50%;
+  }
+  h1 {
+    font-size: 120%;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  #location {
+    font-size: 50%;
+  }
+  #contact {
+    width: 70%;
+    height: 5px;
+  }
+  textarea {
+    height: 100px;
+  }
+}
 }

@@ -1,6 +1,11 @@
 body {
   background-color: #071e26;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 /*HEADER*/
 
 header {
@@ -63,14 +68,15 @@ p {
   color: lightgray;
   font-family: lato;
   text-align: justify;
-  margin: 20px;
-  font-size: 22px;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 h1 {
   text-align: center;
   color: #22a0b6;
-  font-size: 45px;
+  font-size: 300%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -81,43 +87,87 @@ h1 {
 
 h2 {
   color: #22a0b6;
-  font-size: 40px;
+  font-size: 250%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 img {
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
 }
 
 #content {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
-  justify-content: space-around;
 }
 
 #book {
-  display: block;
-  width: auto;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  width: 15%;
+  margin: 1%;
+  vertical-align: middle;
 }
 
 #footer {
   display: block;
-  width: auto;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
 }
 
 hr {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4%;
   border-color: #cb0c59;
+}
+
+@media screen and (max-width: 1007px) {
+  p {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 240%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+  #location {
+    font-size: 100%;
+  }
+  #book {
+    width: 8%;
+    font-size: 70%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  img {
+    display: block;
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 50%;
+  }
+  h1 {
+    font-size: 120%;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  #book {
+    font-size: 50%;
+  }
 }

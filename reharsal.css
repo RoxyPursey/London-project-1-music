@@ -62,14 +62,15 @@ p {
   color: lightgray;
   font-family: lato;
   text-align: justify;
-  margin: 20px;
-  font-size: 22px;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 h1 {
   text-align: center;
   color: #22a0b6;
-  font-size: 45px;
+  font-size: 300%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -80,21 +81,21 @@ h1 {
 
 h2 {
   color: #22a0b6;
-  font-size: 40px;
+  font-size: 250%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 h3 {
   color: #22a0b6;
-  font-size: 25px;
+  font-size: 180%;
   margin: 0px;
 }
 
 img {
   display: block;
-  width: 850px;
-  height: 527px;
+  width: 60%;
+  height: 40%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -105,7 +106,7 @@ img {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 2%;
   font-size: x-large;
 }
 
@@ -117,34 +118,70 @@ img {
 }
 
 #location {
-  font-size: 20px;
+  font-size: 125%;
   margin-left: 10%;
   margin-bottom: 2%;
 }
 
 hr {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4%;
   border-color: #cb0c59;
 }
 
 #footer {
   display: block;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
-  margin-bottom: 0px;
+  margin-top: 0;
 }
 
-@media screen and (max-width: 961px) {
-  header {
-    display: inline-block;
-    justify-content: space-around;
+@media screen and (max-width: 1007px) {
+  p {
+    font-size: 100%;
   }
-  button {
-    display: inline-flex;
-    justify-content: space-around;
-    margin: 0px;
+  h1 {
+    font-size: 240%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  #location {
+    font-size: 100%;
+  }
+  #contact1 {
+    width: 15%;
+    font-size: medium;
+    padding: 1%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 50%;
+  }
+  h1 {
+    font-size: 120%;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  h3 {
+    font-size: 75%;
+  }
+  #location {
+    font-size: 50%;
+  }
+  #contact1 {
+    width: 10%;
+    font-size: smaller;
+    padding: 1%;
+    margin: auto;
   }
 }
