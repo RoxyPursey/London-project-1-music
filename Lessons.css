@@ -188,8 +188,6 @@ hr {
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   img {
@@ -220,17 +218,23 @@ hr {
   }
   p {
     font-size: 100%;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   h1 {
     font-size: 120%;
   }
   h2 {
-    font-size: 100%;
+    font-size: 150%;
   }
   #book {
+    width: 8%;
     font-size: 100%;
-    margin: 0 auto;
+    margin: auto;
+    padding: 12px 50px;
     text-align: center;
+    justify-content: center;
   }
   #content {
     display: inline;
@@ -239,6 +243,6 @@ hr {
   }
   img {
     margin: auto;
-    width: 50%;
+    width: 70%;
   }
 }

@@ -67,6 +67,37 @@ a {
 }
 
 /*CONTENT PAGE*/
+
+#send {
+  background-color: #071e26;
+  font-size: medium;
+  font-family: "Lato", sans-serif;
+  color: #22a0b6;
+  border: 2px solid #cb0c59;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+}
+input {
+  background-color: #071e26;
+  font-size: medium;
+  font-family: "Lato", sans-serif;
+  color: #22a0b6;
+  border: 2px solid #cb0c59;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+}
 p {
   color: lightgray;
   font-family: lato;
@@ -237,7 +268,7 @@ hr {
     font-size: 60%;
   }
   p {
-    font-size: 50%;
+    font-size: 100%;
   }
   h1 {
     font-size: 120%;

@@ -231,24 +231,31 @@ hr {
     font-size: 60%;
   }
   p {
-    font-size: 50%;
-  }
-  h1 {
-    font-size: 120%;
-  }
-  h2 {
     font-size: 100%;
   }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 120%;
+  }
   h3 {
-    font-size: 75%;
+    font-size: 120%;
   }
   #location {
-    font-size: 50%;
+    font-size: 100%;
   }
   #contact1 {
-    width: 10%;
+    width: 20%;
     font-size: smaller;
     padding: 1%;
     margin: auto;
+    text-align: center;
+  }
+
+  img {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 2%;
   }
 }
