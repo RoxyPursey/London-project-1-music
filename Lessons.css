@@ -81,7 +81,7 @@ button {
   text-align: center;
   display: inline-flex;
 }
-button.hover {
+button:hover {
   background-color: #06394c;
   color: #cb0c59;
 }

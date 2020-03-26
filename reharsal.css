@@ -82,7 +82,7 @@ button {
   margin-left: 10px;
   margin-right: 10px;
 }
-button.hover {
+button:hover {
   background-color: #06394c;
   color: #cb0c59;
 }
@@ -208,6 +208,7 @@ hr {
     font-size: medium;
     padding: 1%;
     margin: auto;
+    text-align: center;
   }
 }
 

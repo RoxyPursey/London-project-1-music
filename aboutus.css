@@ -83,6 +83,21 @@ a {
   margin-right: 10px;
   display: inline-flex;
 }
+
+#send:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+
+input:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+textarea:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+
 input {
   background-color: #071e26;
   font-size: medium;
