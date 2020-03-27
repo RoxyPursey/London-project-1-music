@@ -115,7 +115,7 @@ input {
 }
 p {
   color: lightgray;
-  font-family: "Lato", sans-serif;
+  font-family: lato;
   text-align: justify;
   margin: 2%;
   font-size: 125%;
@@ -132,7 +132,6 @@ h1 {
   border: 2px solid #cb0c59;
   border-radius: 8px;
   padding: 10px;
-  font-family: "Lato", sans-serif;
 }
 
 h2 {
@@ -140,7 +139,6 @@ h2 {
   font-size: 250%;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: "Lato", sans-serif;
 }
 
 img,
@@ -209,7 +207,7 @@ textarea {
 
 #footer {
   display: block;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
