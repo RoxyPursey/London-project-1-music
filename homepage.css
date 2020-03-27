@@ -34,7 +34,7 @@ a {
   transition-duration: 0.4s;
   padding: 15px 32px;
   text-align: center;
-  margin-top: 12%;
+  margin-top: 11%;
   margin-left: 10px;
   margin-right: 10px;
   display: inline-flex;
@@ -44,8 +44,15 @@ a {
   background-color: #06394C;
   color: #CB0C59;
 }
+.log-in {
+  height: 150px;
+  width: 150px;
+  display: inline-flex;
+  margin-left: 10px;
+  margin-top: 20px;
+}
 
-.btn-item {
+/* .btn-item {
   display: inline;
   justify-content: center;
 }
@@ -63,26 +70,26 @@ a {
   display: inline-flex;
   margin-top: 160px;
   /* margin-left: 100px; */
-  margin-right: 100px;
-}
+  /* margin-right: 100px; */
+/* }
 .btn-item:hover {
   background-color: #06394C;
   color: #CB0C59;
-}
+} */ 
 
-.sign-logo: {
-  /* display: inline; */
+/* .sign-logo: {
+  display: inline;
   float: :right
 }
 
 .sign-logo {
   max-width: 150px;
   max-height: 150px;
-  margin-top: 40px;
-  margin-left: 100px;
-  float: right;
+  margin-top: 2%;
+  /* margin-left: 10%; */
+  /* float: right;
 
-}
+} */ 
 
 h2 {
   color: #22a0b6 !important;
@@ -102,7 +109,7 @@ img {
 }
 
 .carousel-inner {
-  height:90%;
+  height:110%;
   /* padding-bottom: 100%; */
 }
 
@@ -120,10 +127,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 5px;
 
 }
 .flex-container > div {
   text-align: center;
+  margin-top: 10px;
   margin: 10px;
   padding: 10px;
   font-size: 30%;
@@ -131,13 +140,43 @@ img {
   flex: auto ;
 }
 
+footer {
+  overflow: hidden;
+}
 #footer {
-  display: block;
-  width: 80%;
+  display: flex;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
+  z-index: 2;
 }
+hr {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4%;
+  border-color: #CB0C59;
+}
+/* .social {
+  display: flex;
+  margin: 0% auto;
+}
+#social {
+  margin: 0 auto;
+  justify-content: center;
+  width: 80%;
+}
+#facebook,
+#twitter,
+#youtube,
+#instagram {
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  margin-top: -130%;
+  margin-bottom: -100%;
+  padding: 90%;
+} */
 hr {
   margin-left: 2%;
   margin-right: 2%;
@@ -148,7 +187,7 @@ hr {
 @media screen and (max-width: 961px) {
 }
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   header {
     justify-content: space-around;
   }
@@ -156,5 +195,5 @@ hr {
   @media screen and (max-width: 1007px) {
     header {
       justify-content: space-around;
-    } */
+    }
 
