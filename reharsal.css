@@ -1,0 +1,262 @@
+body {
+  background-color: #071e26;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+/*HEADER*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+.menue {
+  display: inline;
+  justify-content: center;
+}
+
+.menue-items {
+  background-color: #071e26;
+  font-size: medium;
+  font-family: "Lato", sans-serif;
+  color: #22a0b6;
+  border: 2px solid #cb0c59;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+}
+
+.btn-item {
+  background-color: #071e26;
+  font-size: medium;
+  font-family: "Lato", sans-serif;
+  color: #22a0b6 !important;
+  border: 2px solid #cb0c59;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  text-align: right;
+  display: inline-flex;
+  margin-top: 55%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-item:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+.menue-items:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+/*CONTENT PAGE*/
+button {
+  background-color: #071e26;
+  font-size: medium;
+  font-family: "Lato", sans-serif;
+  color: #22a0b6 !important;
+  border: 2px solid #cb0c59;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  text-align: right;
+  display: inline-flex;
+  margin-top: 55%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button:hover {
+  background-color: #06394c;
+  color: #cb0c59;
+}
+p {
+  color: lightgray;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 125%;
+}
+
+h1 {
+  text-align: center;
+  color: #22a0b6;
+  font-size: 300%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border: 2px solid #cb0c59;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h2 {
+  color: #22a0b6;
+  font-size: 250%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  color: #22a0b6;
+  font-size: 180%;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  width: 60%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+#contact1 {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  font-size: x-large;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#location {
+  font-size: 125%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+hr {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4%;
+  border-color: #cb0c59;
+}
+
+#footer {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1007px) {
+  header {
+    justify-content: space-around;
+  }
+  #logo {
+    width: 150px;
+    height: 150px;
+  }
+  .menue-items {
+    margin: 1% auto;
+    margin-top: 12%;
+    width: 12%;
+    font-size: 80%;
+    padding: 10px 18px;
+    justify-content: space-around;
+  }
+  .btn-item {
+    margin: 1% auto;
+    margin-top: 55%;
+    padding: 10px 18px;
+    font-size: 80%;
+  }
+  p {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 240%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  #location {
+    font-size: 100%;
+  }
+  #contact1 {
+    width: 15%;
+    font-size: medium;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    justify-content: space-around;
+  }
+
+  .menue-items {
+    margin: 1% auto;
+    margin-top: 20%;
+    width: 12%;
+    font-size: 60%;
+    padding: 5px 10px;
+    justify-content: space-around;
+  }
+  .btn-item {
+    margin: 1% auto;
+    margin-top: 98%;
+    padding: 5px 10px;
+    font-size: 60%;
+  }
+  p {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 120%;
+  }
+  h3 {
+    font-size: 120%;
+  }
+  #location {
+    font-size: 100%;
+  }
+  #contact1 {
+    width: 20%;
+    font-size: smaller;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+  }
+
+  img {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+}
